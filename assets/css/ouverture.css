@@ -1,0 +1,154 @@
+/*---------------------------------------------------------------------------------*/
+
+/* code cree par Alexcaussades pour le compte de El_GuiGui toute reproduction et formellement interdite
+contact pro: alexcaussades@gmail.com twitter: @alexcaussades */
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+                                     /*BACKGROUND*/
+
+/*---------------------------------------------------------------------------------*/
+body { 
+  margin:0;
+  padding:0;
+  background: url(http://ark.elguigui.fr/assets/img/background.png) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  overflow-x: hidden;
+}
+@-ms-viewport { width: device-width; }
+/*---------------------------------------------------------------------------------*/
+
+                                     /*HEADER*/
+
+/*---------------------------------------------------------------------------------*/
+/* header panneau avec le menu de dans Ligne 66 a 76  */
+.headertheme { 
+	background: black;
+	opacity: 0.8;
+	font-size: 24px;
+	text-align: center;
+}
+
+/* Image du social media */
+.fa {
+	color: white;
+	font-size: 40px;
+	opacity: 1.0;
+}
+
+/* position du soicial media */
+.social {
+	float: right;
+	margin-right: 50px;
+	color: white;
+}
+
+/* ------------------------------------------------------------------------------*/
+
+                                 /*Image du site*/
+
+/*---------------------------------------------------------------------------------*/
+/* image et positions  */
+.haut {
+	display: flex;
+	margin: auto;
+}
+
+/* ligne 85 */
+#histoire {
+	width: 25%;
+	height: 25%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* ligne 83 */
+#roi {
+	width: 15%;
+	height: 15%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* ligne 84 */
+#fort {
+	width: 30%;
+	height: 30%
+}
+
+/*----------------------------------------------------------------------------------*/
+
+                             /*mise en forme visuel*/
+
+/*---------------------------------------------------------------------------------*/
+
+/* Overlay "faire ma demande" en Resposive ligne 91 a 97*/
+.overlay {    
+   color: white;
+    height: auto;
+    width: 420px;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Overlay "explacation" en Resposive ligne 99 a 106 */
+.overlay2 {    
+    color: white;
+    height: auto;
+    width: 420px;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*---------------------------------------------------------------------------*/
+
+                /*Contenu et mise en forme du textuel et bouton*/
+
+/*---------------------------------------------------------------------------------*/
+
+/* reglage des Titres ligne 92 et 100*/
+article h4
+{
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Mise en forme du bouton du formulaire ligne 95 */
+.btn2 {
+    display: block;
+    cursor: pointer;
+    width: 80%;
+    font: bold 25px verdana;
+    color: green;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    border: none;
+    border-radius: 30px;
+    border-bottom: 3px solid ;
+ }
+
+.btn2:hover
+{
+    background-color: #02b8dd;
+}
+
+/* ligne 105 */
+.discord {
+    width: 60px;
+    height: 60px;
+}
+
+/* Parametrage du copyrigth ligne 110 */
+.copyright {
+    float: right;
+    color: white;
+    padding-right: 35px;
+}
