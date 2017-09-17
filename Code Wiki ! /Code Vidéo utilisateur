@@ -1,0 +1,169 @@
+As of version 2.x, EmbedVideo supports embedding video content from the following services:
+{| class="wikitable"
+|-
+! Site
+! colspan="2"|Service Name(s)
+! ID Example
+! URL Example(s)
+|-
+! [https://archive.org/details/movies Archive.org Videos]
+| colspan="2"|<code>archiveorg</code>
+| <nowiki>electricsheep-flock-244-80000-6</nowiki>
+| <nowiki>https://archive.org/details/electricsheep-flock-244-80000-6</nowiki>
+  <nowiki>https://archive.org/embed/electricsheep-flock-244-80000-6</nowiki>
+|-
+! [http://bambuser.com/ Bambuser]
+| <code>bambuser</code> - Broadcasts
+| <code>bambuser_channel</code> - Channels
+| <nowiki>5262334</nowiki>
+| <nowiki>http://bambuser.com/v/5262334</nowiki>
+|-
+! [https://beam.pro/ Beam]
+| colspan="2"|<code>beam</code> - Streams
+| <nowiki>RocketBear</nowiki>
+| <nowiki>https://beam.pro/RocketBear</nowiki>
+|-
+! [http://www.bing.com/videos/ Bing]
+| colspan="2"|<code>bing</code>
+| <nowiki>31ncp9r7l</nowiki>
+| <nowiki>http://www.bing.com/videos/watch/video/adorable-cats-attempt-to-eat-invisible-tuna/31ncp9r7l</nowiki>
+|-
+! [http://www.blip.tv/ Blip.tv]
+| colspan="2"|<code>blip</code> - Blip requires the full URL to the video page and does not accept the raw ID.
+|
+|<nowiki>http://blip.tv/vinylrewind/review-6864612</nowiki>
+|-
+! [https://media.ccc.de/ C3TV]
+| colspan="2"|<code>mediacccde</code>
+| <nowiki>32c3-7305-quantum_cryptography</nowiki>
+| <nowiki>https://media.ccc.de/v/32c3-7305-quantum_cryptography</nowiki>
+|-
+! [http://www.collegehumor.com/ CollegeHumor]
+| colspan="2"|<code>collegehumor</code>
+| <nowiki>6875289</nowiki>
+| <nowiki>http://www.collegehumor.com/video/6875289/batman-says-his-goodbyes</nowiki>
+|-
+! [http://www.dailymotion.com/ Dailymotion]
+| colspan="2"|<code>dailymotion</code>
+| <nowiki>x1adiiw_archer-waking-up-as-h-jon-benjamin_shortfilms</nowiki>
+| <nowiki>http://www.dailymotion.com/video/x1adiiw_archer-waking-up-as-h-jon-benjamin_shortfilms</nowiki>
+|-
+! [http://tvpot.daum.net/ Daum TVPot]
+| colspan="2"|<code>tvpot</code> - Obtain the URL or ID from the share menu URL.
+| <nowiki>s9011HdLzYwpLwBodQzCHRB</nowiki>
+| <nowiki>http://tvpot.daum.net/v/s9011HdLzYwpLwBodQzCHRB</nowiki>
+|-
+! [http://www.divshare.com Div Share]
+| colspan="2"|<code>divshare</code>
+|
+|
+|-
+! [http://edutopia.org Edutopia]
+| colspan="2"|Edutopia content moved to YouTube.  Please use the youtube service selector below.
+|
+|
+|-
+! [http://www.funnyordie.com/ FunnyOrDie]
+| colspan="2"|<code>funnyordie</code>
+| <nowiki>c61fb67ac9</nowiki>
+| <nowiki>http://www.funnyordie.com/videos/c61fb67ac9/to-catch-a-predator-elastic-heart-edition</nowiki>
+|-
+! [http://gfycat.com/ Gfycat]
+| colspan="2"|<code>gfycat</code>
+| <nowiki>BruisedSilentAntarcticfurseal</nowiki>
+| <nowiki>http://www.gfycat.com/BruisedSilentAntarcticfurseal</nowiki>
+|-
+! [http://www.hitbox.tv/ Hitbox]
+| colspan="2"|<code>hitbox</code>
+| <nowiki>Washuu</nowiki>
+| <nowiki>http://www.hitbox.tv/Washuu</nowiki>
+|-
+! [https://www.jwplayer.com/ JW Player]
+| colspan="2"|<code>jwplayer</code>
+| <nowiki>cr5d8nbu-8ZpoNmmJ</nowiki>
+| <nowiki>https://content.jwplatform.com/players/cr5d8nbu-8ZpoNmmJ.html</nowiki>
+|-
+! [http://www.kickstarter.com/ Kickstarter]
+| colspan="2"|<code>kickstarter</code>
+| <nowiki>elanlee/exploding-kittens</nowiki>
+| <nowiki>https://www.kickstarter.com/projects/elanlee/exploding-kittens</nowiki>
+|-
+! [http://www.metacafe.com/ Metacafe]
+| colspan="2"|<code>metacafe</code>
+| <nowiki>11404579</nowiki>
+| <nowiki>http://www.metacafe.com/watch/11404579/lan_party_far_cry_4/</nowiki>
+|-
+! [http://www.nicovideo.jp/ Nico Nico Video]
+| colspan="2"|<code>nico</code>
+| <nowiki>sm24394325</nowiki>
+| <nowiki>http://www.nicovideo.jp/watch/sm24394325</nowiki>
+|-
+! [http://rutube.ru/ RuTube]
+| colspan="2"|<code>rutube</code>
+| <nowiki>b698163ccb67498db74d50cb0f22e556</nowiki>
+| <nowiki>http://rutube.ru/video/b698163ccb67498db74d50cb0f22e556/</nowiki>
+|-
+! [http://soundcloud.com/ SoundCloud]
+| colspan="2"|<code>soundcloud</code>
+| <nowiki>use full url</nowiki>
+| <nowiki>https://soundcloud.com/skrillex/skrillex-rick-ross-purple-lamborghini</nowiki>
+|-
+! [http://teachertube.com TeacherTube]
+| colspan="2"|<code>teachertube</code>
+| <nowiki>370511</nowiki>
+| <nowiki>http://www.teachertube.com/video/thats-a-noun-sing-along-hd-version-370511</nowiki>
+|-
+! [http://www.ted.com/talks/browse/ TED Talks]
+| colspan="2"|<code>ted</code>
+| <nowiki>bruce_aylward_humanity_vs_ebola_the_winning_strategies_in_a_terrifying_war</nowiki>
+| <nowiki>http://www.ted.com/talks/bruce_aylward_humanity_vs_ebola_the_winning_strategies_in_a_terrifying_war</nowiki>
+|-
+! [https://tubitv.com Tubi TV]
+| colspan="2"|<code>tubitv</code>
+| <nowiki>318409</nowiki>
+| <nowiki>http://tubitv.com/video/318409</nowiki>
+|-
+! [http://www.tudou.com/ Tudou]
+| colspan="2"|<code>tudou</code>
+| <nowiki>mfQXfumwiew</nowiki>
+| <nowiki>http://www.tudou.com/listplay/mfQXfumwiew.html</nowiki>
+|-
+! [http://www.twitch.tv Twitch]
+| <code>twitch</code> - Live Streams
+| <code>twitchvod</code> - Archived Videos on Demand
+| <nowiki>twitchplayspokemon</nowiki>
+| <nowiki>http://www.twitch.tv/twitchplayspokemon</nowiki>
+|-
+! [http://89.160.51.62/recordme/spelain.htm Videomaten]
+| colspan="2"|<code>videomaten</code>
+|
+|
+|-
+! [http://www.vimeo.com Vimeo]
+| colspan="2"|<code>vimeo</code>
+| <nowiki>105035718</nowiki>
+| <nowiki>http://vimeo.com/105035718</nowiki>
+|-
+! [http://vine.co Vine]
+| colspan="2"|<code>vine</code>
+| <nowiki>h2B7WMtuX2t</nowiki>
+| <nowiki>https://vine.co/v/h2B7WMtuX2t</nowiki>
+|-
+! [http://screen.yahoo.com/ Yahoo Screen]
+| colspan="2"|<code>yahoo</code>
+| <nowiki>katy-perry-dances-sharks-2015-024409668</nowiki>
+| <nowiki>https://screen.yahoo.com/videos-for-you/katy-perry-dances-sharks-2015-024409668.html</nowiki>
+|-
+! [http://www.youtube.com/ YouTube]
+| <code>youtube</code> - Single Videos
+| <code>youtubeplaylist</code> - Playlists
+| <nowiki>pSsYTj9kCHE</nowiki>
+| <nowiki>https://www.youtube.com/watch?v=pSsYTj9kCHE</nowiki>
+  <nowiki>https://www.youtube.com/watch?v=CW_PbErQ_c8&list=PL76E80C7F756A2047</nowiki>
+|-
+! [http://www.youku.com/ Youku]
+| colspan="2"|<code>youku</code>
+| <nowiki>XODc3NDgzMTY4</nowiki>
+| <nowiki>http://v.youku.com/v_show/id_XODc3NDgzMTY4.html</nowiki>
+|-
+|}
