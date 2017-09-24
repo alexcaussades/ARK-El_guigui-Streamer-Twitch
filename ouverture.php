@@ -93,7 +93,7 @@ document.onclick=reEnable
 <div class="col-md-6"><div class="overlay">
     <h4> Devenez acteur de la série ! </h4>
 <!-- Demande de whitliste avec redirection sur le site de el_guigui -->
-    <p>Pour nous <b>rejoindre</b> pour nous rejoindre faire votre présentation !</p>
+    <p>Pour nous <b>rejoindre</b> faire votre présentation !</p>
     <a href="http://elguigui.fr/forums/" class="btn2" role="button">Faire ma présentation</a>
     </div></div>
     <div class="col-md-6">
