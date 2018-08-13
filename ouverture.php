@@ -112,3 +112,5 @@ document.onclick=reEnable
 <!-- copyright el_guigui 2017 (A modifier en 2018) -->
 <div class="copyright">© 2017 El_GuiGui Toute reproduction interdite sans l'autorisation de l'auteur.</div>
 </body>
+
+<!-- Fermeture du project web  -->
